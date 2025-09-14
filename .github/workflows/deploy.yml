@@ -10,19 +10,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Clona la repo
       - uses: actions/checkout@v3
 
+      # Step 2: Setup Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: 3.10
 
+      # Step 3: Installa Jupyter Book e ghp-import
       - name: Install dependencies
         run: |
+          pip install --upgrade pip
           pip install -U jupyter-book ghp-import
 
+      # Step 4: Costruisci il libro
       - name: Build the book
         run: jupyter-book build .
 
+      # Step 5: Pubblica su GitHub Pages (crea il branch gh-pages se non esiste)
       - name: Deploy to GitHub Pages
         run: ghp-import -n -p -f _build/html

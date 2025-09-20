@@ -1,4 +1,4 @@
 format: jb-book
 root: intro
 chapters:
-- file: notebooks/02_discrete/hypergeom.ipynb
+- file: notebooks/02_discrete/hypergeom

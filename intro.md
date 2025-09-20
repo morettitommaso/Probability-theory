@@ -1,11 +1,24 @@
-# Welcome to your Jupyter Book
+# Probability theory
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+## About the author
 
-Check out the content pages bundled with this sample book to see more.
+Ciao! Sono Tommaso. Studio statistica presso l'università Bicocca a Milano.
+Tuttavia, il mio background è diverso da quello della maggior parte dei miei colleghi, ho un diploma in informatica e provengo quindi da un istituto tecnico.
+
+Ineffetti è proprio durante gli ultimi due anni di scuole superiori che ho scoperto l'arte dell'analisi e ho inziato a immaginare il mio futuro più vicino a questo ambito.
+
+Durante il mio primo anni di statitica tra tutti i corsi mi sono avvicinato molto a quello di Calocolo Delle Probabilità, nel quale ho ottenuto il massimo dei voti ed in particolara mi ha portato ad approfonsire il mondo delle simulazioni.
+quindi ho deciso di scrivere un e-book contenente i concetti centrali e più interesanti dei principali corsi in calcolo dell eprobabiltà ma con l'obiettivo di fornire a tutti gli studenti gli stumenti necessari per giocare e divertirsi con i dati in ambito probabilistico.
+
+## Why this book
+
+Ineffetti è proprio durante gli ultimi due anni di scuole superiori che ho scoperto l'arte dell'analisi e ho inziato a immaginare il mio futuro più vicino a questo ambito.
+
+## Content of the book
+
+in questo semplice sito ho deciso di raggruppare i principali concetti insegnati nei corsi calcolo di probabilità nelle università, ed ho cercato di dare il mio contributo, da appassionato di informatica, rispetto all'applicazione in python di tali essi.
+
+Enjoy!
 
 ```{tableofcontents}
 ```

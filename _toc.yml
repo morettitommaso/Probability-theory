@@ -1,6 +1,9 @@
 format: jb-book
 root: intro
 chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+- file: 01_intro
+- file: 02_discrete/bernoulli
+- file: 02_discrete/binomial
+- file: 02_discrete/hypergeometric
+- file: 03_continuous/normal
+- file: 03_continuous/exponential
